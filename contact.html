@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="icon" type="image/png" href="./images/favicon.jfif">
+</head>
+<body>
+<ul style="text-align: center;">
+    <li style="display: inline; margin-right: 200px;"><a href="./home.html">Home</a></li> 
+    <li style="display: inline; margin-right: 200px;"><a href="./services.html">Services</a></li> 
+    <li style="display: inline; margin-right: 200px;"><a href="./about.html">About us</a></li>
+    <li style="display: inline; margin-right: 200px;"><a href="./contact.html">Contact</a></li> 
+</ul>
+<div style="color: blue;">   
+    <h1 style="text-align: center;">Contact us</h1>
+</div>    
+    <p style="text-align: center;">You can contact us to make a reservation or place your order online</p>
+    <p style="text-align: center;">08087634251</p>
+    <p style="text-align: center;">maxrestaurant@gmail.com</p>
+
+
+
+
+<form action="submit-form.php" method="POST" style="text-align: center;"> 
+        <!-- Text Field -->
+
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/><br><br>
+
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required/><br></br>
+
+        <label for="message">complain:</label>
+        <textarea id="message" name="message"></textarea><br></br>
+
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <input type="submit" value="Submit">
+</form>
+
+
+
+
+<footer>
+        <p>&copy; 2025 Max Restaurant| All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
